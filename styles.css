@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+.content {
+    display: flex;
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    background-color: #E5E7EB;
+    color:#1F2937
+}
