@@ -16,6 +16,11 @@ button {
     background-color:  #3882F6;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .introduction {
     display: flex;
     flex-direction: column;
@@ -49,7 +54,9 @@ button {
 .info-contact {
     display: flex;
     align-items: flex-start;
+    flex-direction: row-reverse;
 }
+
 
 .info-contact .reverse {
     flex-direction: row-reverse;
@@ -61,7 +68,7 @@ button {
 }
 
 .image {
-    width: 50px;
+    width: 300px;
 }
 
 .content {
