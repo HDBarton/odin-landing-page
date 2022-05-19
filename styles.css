@@ -3,11 +3,17 @@ body {
     flex-direction: column;
     font-family: "hero", verdana, sans-serif;
     margin-left: 80px;
+    overflow-y: scroll;
 }
 
 a {
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
+}
+
+button {
+    display: flex;
+    background-color:  #3882F6;
 }
 
 .introduction {
@@ -20,12 +26,24 @@ a {
 .header {
     display: flex;
     padding: 5px;
+    font-size: 24px;
+    color:#F9FAF8
 }
 
 .header-link {
     display: flex;
     margin-left: auto;
     gap: 8px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .info-contact {
