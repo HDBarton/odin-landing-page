@@ -1,14 +1,49 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: "hero", verdana, sans-serif
+    font-family: "hero", verdana, sans-serif;
+    margin-left: 80px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header {
     display: flex;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    
+    padding: 5px;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    gap: 8px;
+}
+
+.info-contact {
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-contact .reverse {
+    flex-direction: row-reverse;
+}
+
+.info-contact .intro {
+    flex: 1;   
+    padding: 10px;
+}
+
+.image {
+    width: 50px;
 }
 
 .content {
