@@ -1,12 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "hero", verdana, sans-serif
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
+    
 }
 
 .content {
