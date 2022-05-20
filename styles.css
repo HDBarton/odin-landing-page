@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "hero", verdana, sans-serif;
-    margin-left: 80px;
     overflow-y: scroll;
 }
 
@@ -14,6 +13,7 @@ a {
 button {
     display: flex;
     background-color:  #3882F6;
+    color: white;
 }
 
 img {
@@ -28,11 +28,13 @@ img {
     color: #F9FAF8;
 }
 
-.header {
+.header-box {
     display: flex;
     padding: 5px;
     font-size: 24px;
-    color:#F9FAF8
+    color:#F9FAF8;
+    margin-bottom: 72px;
+    padding: 80px;
 }
 
 .header-link {
@@ -51,18 +53,18 @@ img {
     color: #E5E7EB;
 }
 
-.info-contact {
+.info-contact-box {
     display: flex;
     align-items: flex-start;
     flex-direction: row-reverse;
+    padding: 80px;
 }
 
-
-.info-contact .reverse {
+.info-contact-box .reverse {
     flex-direction: row-reverse;
 }
 
-.info-contact .intro {
+.info-contact-box .intro {
     flex: 1;   
     padding: 10px;
 }
