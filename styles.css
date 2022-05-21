@@ -45,7 +45,7 @@ img {
 }
 
 .image {
-    width: 300px;
+    width: 400px;
 }
 
 .title {
@@ -62,7 +62,9 @@ img {
     display: flex;
     align-items: flex-start;
     flex-direction: row-reverse;
-    padding: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 15px;
 }
 
 .info-contact-box .reverse {
