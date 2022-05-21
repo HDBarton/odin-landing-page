@@ -15,7 +15,11 @@ button {
     background-color:  #3882F6;
     color: white;
     border-radius: 4px;
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: white 1px solid;
 }
 
 img {
@@ -158,4 +162,35 @@ img {
     font-size: 16px;
     width: 700px;
     color: navy;
+}
+
+/*Email signup*/
+
+.signup-section {
+    display: flex;
+    background-color:  #3882F6;
+    border: white 70px solid;
+    color: white;
+    padding: 80px;
+    justify-content:space-around;
+}
+
+.signup-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-title {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.signup-text {
+    font-size: 18px;
+}
+
+.signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
