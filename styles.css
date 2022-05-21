@@ -63,8 +63,12 @@ img {
 }
 
 .intro-text {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    width: 600px;
+    padding-bottom: 30px;
 }
 
 .info-contact-box {
