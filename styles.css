@@ -40,10 +40,14 @@ img {
     padding-left: 100px;
 }
 
+.logo {
+    width: 100px;
+}
+
 .header-link {
     display: flex;
     margin-left: auto;
-    gap: 8px;
+    gap: 30px;
 }
 
 .image {
