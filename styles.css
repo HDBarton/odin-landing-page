@@ -21,6 +21,7 @@ button {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 6px;
 }
 
 .introduction-section {
@@ -35,7 +36,8 @@ img {
     font-size: 24px;
     color:#F9FAF8;
     margin-bottom: 72px;
-    padding: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .header-link {
@@ -62,9 +64,9 @@ img {
     display: flex;
     align-items: flex-start;
     flex-direction: row-reverse;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
 }
 
 .info-contact-box .reverse {
@@ -85,6 +87,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .section-title {
@@ -102,19 +105,21 @@ img {
 .specialization {
     display: flex;
     flex-direction: column;
+    align-content: center;
     border: 30px;
+    margin: 30px;
 }
 
 .window {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 6px;
+    width: 150px;
+    height: 150px;
+
 }
 
 .window-text {
-    width: 100px;
+    width: 150px;
     flex-wrap: wrap;
+
 }
 
 /*Footer*/
