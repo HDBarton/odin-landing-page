@@ -182,7 +182,7 @@ img {
 
 .signup-title {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .signup-text {
@@ -193,4 +193,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Copyright*/
+
+.copyright {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 30px;
 }
