@@ -109,7 +109,7 @@ img {
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 8px solid #1F2937;
+    border-radius: 6px;
 }
 
 .window-text {
