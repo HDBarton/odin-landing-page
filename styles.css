@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: "hero", verdana, sans-serif;
+    font-family: "roboto", verdana, sans-serif;
     overflow-y: scroll;
 }
 
@@ -33,7 +33,7 @@ img {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .header-box {
@@ -48,7 +48,7 @@ img {
 
 .logo {
     width: 100px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .header-link {
